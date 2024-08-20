@@ -25,7 +25,7 @@ resource "aws_instance" "app_instance" {
               EOF
 
   tags = {
-    Name = "streamlit-app"
+    Name = "streamlit-app-30minutos"
   }
 }
 
